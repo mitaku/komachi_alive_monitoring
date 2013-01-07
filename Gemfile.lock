@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    komachi_alive_monitoring (0.0.1)
+    komachi_alive_monitoring (0.1.0)
       rails (~> 3.2)
 
 GEM
