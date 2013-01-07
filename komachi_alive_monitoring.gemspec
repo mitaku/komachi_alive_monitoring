@@ -7,15 +7,15 @@ require "komachi_alive_monitoring/version"
 Gem::Specification.new do |s|
   s.name        = "komachi_alive_monitoring"
   s.version     = KomachiAliveMonitoring::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
+  s.authors     = ["Takumi MIURA"]
+  s.email       = ["mitaku1104@gmail.com"]
   s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of KomachiAliveMonitoring."
-  s.description = "TODO: Description of KomachiAliveMonitoring."
+  s.summary     = "Rails Application Alive Monitoring Engine."
+  s.description = "Alive Monitoring of Application Server and DB Server."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
 
-  s.add_dependency "rails", "~> 3.2.10"
+  s.add_dependency "rails", "~> 3.2"
   # s.add_dependency "jquery-rails"
 
   s.add_development_dependency "sqlite3"
